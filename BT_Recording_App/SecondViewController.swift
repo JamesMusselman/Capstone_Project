@@ -1,25 +1,25 @@
+////
+////  SecondViewController.swift
+////  BT_Recording_App
+////
+////  Created by James I. Musselman on 9/18/15.
+////  Copyright (c) 2015 James I. Musselman. All rights reserved.
+////
 //
-//  SecondViewController.swift
-//  BT_Recording_App
+//import UIKit
 //
-//  Created by James I. Musselman on 9/18/15.
-//  Copyright (c) 2015 James I. Musselman. All rights reserved.
+//class SecondViewController: UIViewController {
 //
-
-import UIKit
-
-class SecondViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
-}
-
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        // Do any additional setup after loading the view, typically from a nib.
+//    }
+//
+//    override func didReceiveMemoryWarning() {
+//        super.didReceiveMemoryWarning()
+//        // Dispose of any resources that can be recreated.
+//    }
+//
+//
+//}
+//

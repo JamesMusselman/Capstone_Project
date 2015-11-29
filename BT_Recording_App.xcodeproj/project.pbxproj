@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35879C931C09BAA4003D3033 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879C8C1C09BAA4003D3033 /* BaseTableViewController.swift */; };
+		35879C941C09BAA4003D3033 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879C8D1C09BAA4003D3033 /* DetailViewController.swift */; };
+		35879C951C09BAA4003D3033 /* NoVoiceSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879C8E1C09BAA4003D3033 /* NoVoiceSelectedViewController.swift */; };
+		35879C961C09BAA4003D3033 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879C8F1C09BAA4003D3033 /* RecordViewController.swift */; };
+		35879C971C09BAA4003D3033 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879C901C09BAA4003D3033 /* SplitViewController.swift */; };
+		35879C981C09BAA4003D3033 /* VoiceSearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879C911C09BAA4003D3033 /* VoiceSearchResultsController.swift */; };
+		35879C991C09BAA4003D3033 /* VoicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879C921C09BAA4003D3033 /* VoicesTableViewController.swift */; };
+		35879C9F1C09BAAF003D3033 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879C9B1C09BAAF003D3033 /* CoreDataStack.swift */; };
+		35879CA01C09BAAF003D3033 /* Voice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879C9C1C09BAAF003D3033 /* Voice.swift */; };
+		35879CA11C09BAAF003D3033 /* VoiceMemos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35879C9D1C09BAAF003D3033 /* VoiceMemos.xcdatamodeld */; };
+		35879CA71C09BAB7003D3033 /* KMCircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879CA31C09BAB7003D3033 /* KMCircularProgressView.swift */; };
+		35879CA81C09BAB7003D3033 /* KMVoiceRecordHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879CA41C09BAB7003D3033 /* KMVoiceRecordHUD.swift */; };
+		35879CA91C09BAB7003D3033 /* VoiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879CA51C09BAB7003D3033 /* VoiceTableViewCell.swift */; };
+		35879CAA1C09BAB7003D3033 /* VoiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35879CA61C09BAB7003D3033 /* VoiceTableViewCell.xib */; };
+		35879CAE1C09BAC0003D3033 /* KMOverlayPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879CAC1C09BAC0003D3033 /* KMOverlayPresentationController.swift */; };
+		35879CAF1C09BAC0003D3033 /* KMOverlayTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879CAD1C09BAC0003D3033 /* KMOverlayTransitioner.swift */; };
+		35879CB21C09BACA003D3033 /* AudioSessionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879CB11C09BACA003D3033 /* AudioSessionHelper.swift */; };
+		35879CBE1C09BC57003D3033 /* KMPlaceholderTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35879CB91C09BB58003D3033 /* KMPlaceholderTextView.framework */; };
+		35879CBF1C09BC5B003D3033 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35879CBB1C09BB58003D3033 /* Pods.framework */; };
 		35F6EE2B1BAC9316002D247F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6EE2A1BAC9316002D247F /* AppDelegate.swift */; };
 		35F6EE2D1BAC9316002D247F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6EE2C1BAC9316002D247F /* FirstViewController.swift */; };
 		35F6EE2F1BAC9316002D247F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6EE2E1BAC9316002D247F /* SecondViewController.swift */; };
@@ -17,6 +36,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		35879CB81C09BB58003D3033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35879CB31C09BB58003D3033 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 132FB00F4813B04A01CC9298F6F7E11F;
+			remoteInfo = KMPlaceholderTextView;
+		};
+		35879CBA1C09BB58003D3033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35879CB31C09BB58003D3033 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C2CF5FCBBB83576D03206D114763D89;
+			remoteInfo = Pods;
+		};
 		35F6EE3D1BAC9316002D247F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 35F6EE1D1BAC9316002D247F /* Project object */;
@@ -27,6 +60,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35879C8C1C09BAA4003D3033 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		35879C8D1C09BAA4003D3033 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		35879C8E1C09BAA4003D3033 /* NoVoiceSelectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoVoiceSelectedViewController.swift; sourceTree = "<group>"; };
+		35879C8F1C09BAA4003D3033 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		35879C901C09BAA4003D3033 /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		35879C911C09BAA4003D3033 /* VoiceSearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceSearchResultsController.swift; sourceTree = "<group>"; };
+		35879C921C09BAA4003D3033 /* VoicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoicesTableViewController.swift; sourceTree = "<group>"; };
+		35879C9B1C09BAAF003D3033 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		35879C9C1C09BAAF003D3033 /* Voice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Voice.swift; sourceTree = "<group>"; };
+		35879C9E1C09BAAF003D3033 /* VoiceMemos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VoiceMemos.xcdatamodel; sourceTree = "<group>"; };
+		35879CA31C09BAB7003D3033 /* KMCircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMCircularProgressView.swift; sourceTree = "<group>"; };
+		35879CA41C09BAB7003D3033 /* KMVoiceRecordHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMVoiceRecordHUD.swift; sourceTree = "<group>"; };
+		35879CA51C09BAB7003D3033 /* VoiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceTableViewCell.swift; sourceTree = "<group>"; };
+		35879CA61C09BAB7003D3033 /* VoiceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoiceTableViewCell.xib; sourceTree = "<group>"; };
+		35879CAC1C09BAC0003D3033 /* KMOverlayPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMOverlayPresentationController.swift; sourceTree = "<group>"; };
+		35879CAD1C09BAC0003D3033 /* KMOverlayTransitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMOverlayTransitioner.swift; sourceTree = "<group>"; };
+		35879CB11C09BACA003D3033 /* AudioSessionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioSessionHelper.swift; sourceTree = "<group>"; };
+		35879CB31C09BB58003D3033 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = "../VoiceMemos-master copy/Pods/Pods.xcodeproj"; sourceTree = "<group>"; };
 		35F6EE251BAC9316002D247F /* BT_Recording_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BT_Recording_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F6EE291BAC9316002D247F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35F6EE2A1BAC9316002D247F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +89,8 @@
 		35F6EE3C1BAC9316002D247F /* BT_Recording_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BT_Recording_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F6EE411BAC9316002D247F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35F6EE421BAC9316002D247F /* BT_Recording_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BT_Recording_AppTests.swift; sourceTree = "<group>"; };
+		88AF858BD41CAB1456176F1A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BC6B034A927C8ED10ED1BC1D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35879CBF1C09BC5B003D3033 /* Pods.framework in Frameworks */,
+				35879CBE1C09BC57003D3033 /* KMPlaceholderTextView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +113,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EBAC36F2B78775DDF64E404 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35879CB31C09BB58003D3033 /* Pods.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35879C8B1C09BAA4003D3033 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35879C8C1C09BAA4003D3033 /* BaseTableViewController.swift */,
+				35879C8D1C09BAA4003D3033 /* DetailViewController.swift */,
+				35879C8E1C09BAA4003D3033 /* NoVoiceSelectedViewController.swift */,
+				35879C8F1C09BAA4003D3033 /* RecordViewController.swift */,
+				35879C901C09BAA4003D3033 /* SplitViewController.swift */,
+				35879C911C09BAA4003D3033 /* VoiceSearchResultsController.swift */,
+				35879C921C09BAA4003D3033 /* VoicesTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35879C9A1C09BAAF003D3033 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35879C9B1C09BAAF003D3033 /* CoreDataStack.swift */,
+				35879C9C1C09BAAF003D3033 /* Voice.swift */,
+				35879C9D1C09BAAF003D3033 /* VoiceMemos.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35879CA21C09BAB7003D3033 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35879CA31C09BAB7003D3033 /* KMCircularProgressView.swift */,
+				35879CA41C09BAB7003D3033 /* KMVoiceRecordHUD.swift */,
+				35879CA51C09BAB7003D3033 /* VoiceTableViewCell.swift */,
+				35F6EE351BAC9316002D247F /* LaunchScreen.xib */,
+				35879CA61C09BAB7003D3033 /* VoiceTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35879CAB1C09BAC0003D3033 /* KMOverlayPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				35879CAC1C09BAC0003D3033 /* KMOverlayPresentationController.swift */,
+				35879CAD1C09BAC0003D3033 /* KMOverlayTransitioner.swift */,
+			);
+			path = KMOverlayPresentation;
+			sourceTree = "<group>";
+		};
+		35879CB01C09BACA003D3033 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				35879CB11C09BACA003D3033 /* AudioSessionHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		35879CB41C09BB58003D3033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35879CB91C09BB58003D3033 /* KMPlaceholderTextView.framework */,
+				35879CBB1C09BB58003D3033 /* Pods.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		35F6EE1C1BAC9315002D247F = {
 			isa = PBXGroup;
 			children = (
 				35F6EE271BAC9316002D247F /* BT_Recording_App */,
 				35F6EE3F1BAC9316002D247F /* BT_Recording_AppTests */,
 				35F6EE261BAC9316002D247F /* Products */,
+				91FDA9F656C52CE86A79C958 /* Pods */,
+				2EBAC36F2B78775DDF64E404 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +206,16 @@
 		35F6EE271BAC9316002D247F /* BT_Recording_App */ = {
 			isa = PBXGroup;
 			children = (
+				35879C8B1C09BAA4003D3033 /* Controller */,
+				35879C9A1C09BAAF003D3033 /* Model */,
+				35879CA21C09BAB7003D3033 /* View */,
+				35879CAB1C09BAC0003D3033 /* KMOverlayPresentation */,
+				35879CB01C09BACA003D3033 /* Helper */,
 				35F6EE2A1BAC9316002D247F /* AppDelegate.swift */,
 				35F6EE2C1BAC9316002D247F /* FirstViewController.swift */,
 				35F6EE2E1BAC9316002D247F /* SecondViewController.swift */,
 				35F6EE301BAC9316002D247F /* Main.storyboard */,
 				35F6EE331BAC9316002D247F /* Images.xcassets */,
-				35F6EE351BAC9316002D247F /* LaunchScreen.xib */,
 				35F6EE281BAC9316002D247F /* Supporting Files */,
 			);
 			path = BT_Recording_App;
@@ -115,6 +246,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		91FDA9F656C52CE86A79C958 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B034A927C8ED10ED1BC1D /* Pods.debug.xcconfig */,
+				88AF858BD41CAB1456176F1A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35F6EE461BAC9316002D247F /* Build configuration list for PBXNativeTarget "BT_Recording_App" */;
 			buildPhases = (
+				600925F9825DCB88D34D0D6B /* Check Pods Manifest.lock */,
 				35F6EE211BAC9316002D247F /* Sources */,
 				35F6EE221BAC9316002D247F /* Frameworks */,
 				35F6EE231BAC9316002D247F /* Resources */,
+				896ECEAC16AC7E0BA0D29508 /* Embed Pods Frameworks */,
+				5780E864BBD3A303869E68E3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,11 +302,14 @@
 		35F6EE1D1BAC9316002D247F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "James I. Musselman";
 				TargetAttributes = {
 					35F6EE241BAC9316002D247F = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = HF2VU5CL6H;
 					};
 					35F6EE3B1BAC9316002D247F = {
 						CreatedOnToolsVersion = 6.4;
@@ -182,6 +328,12 @@
 			mainGroup = 35F6EE1C1BAC9315002D247F;
 			productRefGroup = 35F6EE261BAC9316002D247F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 35879CB41C09BB58003D3033 /* Products */;
+					ProjectRef = 35879CB31C09BB58003D3033 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				35F6EE241BAC9316002D247F /* BT_Recording_App */,
@@ -190,11 +342,29 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		35879CB91C09BB58003D3033 /* KMPlaceholderTextView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KMPlaceholderTextView.framework;
+			remoteRef = 35879CB81C09BB58003D3033 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35879CBB1C09BB58003D3033 /* Pods.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods.framework;
+			remoteRef = 35879CBA1C09BB58003D3033 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		35F6EE231BAC9316002D247F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35879CAA1C09BAB7003D3033 /* VoiceTableViewCell.xib in Resources */,
 				35F6EE321BAC9316002D247F /* Main.storyboard in Resources */,
 				35F6EE371BAC9316002D247F /* LaunchScreen.xib in Resources */,
 				35F6EE341BAC9316002D247F /* Images.xcassets in Resources */,
@@ -210,14 +380,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5780E864BBD3A303869E68E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		600925F9825DCB88D34D0D6B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		896ECEAC16AC7E0BA0D29508 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35F6EE211BAC9316002D247F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35879CAF1C09BAC0003D3033 /* KMOverlayTransitioner.swift in Sources */,
+				35879C981C09BAA4003D3033 /* VoiceSearchResultsController.swift in Sources */,
 				35F6EE2F1BAC9316002D247F /* SecondViewController.swift in Sources */,
+				35879CA71C09BAB7003D3033 /* KMCircularProgressView.swift in Sources */,
 				35F6EE2B1BAC9316002D247F /* AppDelegate.swift in Sources */,
+				35879C941C09BAA4003D3033 /* DetailViewController.swift in Sources */,
+				35879CAE1C09BAC0003D3033 /* KMOverlayPresentationController.swift in Sources */,
+				35879CA01C09BAAF003D3033 /* Voice.swift in Sources */,
+				35879C991C09BAA4003D3033 /* VoicesTableViewController.swift in Sources */,
+				35879CB21C09BACA003D3033 /* AudioSessionHelper.swift in Sources */,
+				35879C961C09BAA4003D3033 /* RecordViewController.swift in Sources */,
+				35879CA11C09BAAF003D3033 /* VoiceMemos.xcdatamodeld in Sources */,
+				35879C9F1C09BAAF003D3033 /* CoreDataStack.swift in Sources */,
+				35879C951C09BAA4003D3033 /* NoVoiceSelectedViewController.swift in Sources */,
+				35879C931C09BAA4003D3033 /* BaseTableViewController.swift in Sources */,
+				35879CA91C09BAB7003D3033 /* VoiceTableViewCell.swift in Sources */,
 				35F6EE2D1BAC9316002D247F /* FirstViewController.swift in Sources */,
+				35879CA81C09BAB7003D3033 /* KMVoiceRecordHUD.swift in Sources */,
+				35879C971C09BAA4003D3033 /* SplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +488,7 @@
 				35F6EE361BAC9316002D247F /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -276,10 +511,12 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -298,6 +535,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,6 +559,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -336,6 +575,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -344,21 +584,32 @@
 		};
 		35F6EE471BAC9316002D247F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6B034A927C8ED10ED1BC1D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BT_Recording_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vo.VoiceMemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		35F6EE481BAC9316002D247F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88AF858BD41CAB1456176F1A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BT_Recording_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vo.VoiceMemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -366,6 +617,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -385,6 +637,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -415,6 +668,7 @@
 				35F6EE481BAC9316002D247F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35F6EE491BAC9316002D247F /* Build configuration list for PBXNativeTarget "BT_Recording_AppTests" */ = {
 			isa = XCConfigurationList;
@@ -423,8 +677,22 @@
 				35F6EE4B1BAC9316002D247F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35879C9D1C09BAAF003D3033 /* VoiceMemos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35879C9E1C09BAAF003D3033 /* VoiceMemos.xcdatamodel */,
+			);
+			currentVersion = 35879C9E1C09BAAF003D3033 /* VoiceMemos.xcdatamodel */;
+			path = VoiceMemos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 35F6EE1D1BAC9316002D247F /* Project object */;
 }

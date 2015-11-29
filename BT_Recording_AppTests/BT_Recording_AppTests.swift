@@ -1,9 +1,9 @@
 //
-//  BT_Recording_AppTests.swift
-//  BT_Recording_AppTests
+//  VoiceMemosTests.swift
+//  VoiceMemosTests
 //
-//  Created by James I. Musselman on 9/18/15.
-//  Copyright (c) 2015 James I. Musselman. All rights reserved.
+//  Created by James Musselman on 2/20/15.
+//  Copyright (c) 2015 James Musselman. All rights reserved.
 //
 
 import UIKit

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BT_Recording_App.xcodeproj">
+      location = "self:/Users/jamesmusselman/Documents/Xcode Projects/BT_Recording_App/BT_Recording_App.xcodeproj">
    </FileRef>
 </Workspace>
